@@ -1,4 +1,4 @@
-var bcryptOriginal = require('bcrypt');
+var bcryptOriginal = require('bcrypt-nodejs');
 var Promise = require('bluebird');
 
 var User = require('../../db/schema.js').User;
